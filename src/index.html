@@ -14,5 +14,13 @@
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
+    <div>
+      <form method = "post">
+        <input class ="input"  type = "text" name = "name" required pattern=".{20,}"/>
+        <input  class ="input" type = "text" name = "name-slug" required pattern = "[^0-9\S_]+"/>
+        <input  class ="input" type = "number" name = "number of contributers" required pattern = "^[1-9][0-9]?$|^100$"/>
+        <input  class ="input" type = "number" name = "maximum nubmer of branches" required required pattern = "^[1-9][0-9]?$|^100$" />
+      </form>
+    </div>
   </body>
 </html>
